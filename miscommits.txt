@@ -1,0 +1,11 @@
+commit 1f663ab8ecbdeeb6cad7d58d4c2bb69820d8e388
+Author: CCDM10 <ccdm10@CCDM10.local>
+Date:   Mon Feb 18 13:43:07 2019 -0700
+
+    Titulo y body cambiados
+
+commit 05034cd303c57fbe8584275aa68d0b6e01c6be7e
+Author: CCDM10 <ccdm10@CCDM10.local>
+Date:   Mon Feb 18 13:37:54 2019 -0700
+
+    Commit inicial
