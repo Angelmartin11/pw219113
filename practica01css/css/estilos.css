@@ -1,0 +1,21 @@
+body{
+	border:1px solid grey;
+	margin:0px auto;
+	max-width: 1024px;
+}
+header{
+	background: #cce1ec;
+}
+
+#logo{
+	margin-top: -150px;
+}
+header nav ul li
+{
+	display: inline-block;
+	border: 1px solid red;
+	margin-right: 20px;
+}
+header nav {
+	background: blue;
+}
