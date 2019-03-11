@@ -14,6 +14,12 @@ body{
 	margin-top: 25px;
 }
 
+#offer{
+	position: relative;
+	top: -406px;
+	left:-35px;
+}
+
 header input{
 	float:right;
 	margin-top: 15px;
@@ -32,4 +38,54 @@ header nav ul li {
 	font-size: 1.8em;
 	padding-bottom: 2px;
 	border-bottom: 2px solid lightgrey;
+}
+
+/******* ID'S *******/
+
+#seccion01{
+	margin-top: 60px;
+	height: 318px;
+	margin-top: 
+}
+#seccion01 article{
+	display: inline-block;
+	vertical-align: top;
+}
+#sec1art1{
+	width: 60%;
+}
+#sec1art2{
+	width: 30%;
+	margin-left: 50px;
+}
+#sec1art2 ul{
+	margin-left: -40px;
+	list-style: none;
+}
+#sec1art2 ul li:before{
+	content: "• ";
+	color: pink;/*#FF0099;*/
+}
+
+#seccion02 article{
+	text-align: right;
+	margin-right: 200px;
+}
+
+
+/******** CLASES *******/
+
+.Rosa{
+	color: #FF0099;
+}
+
+.grande{
+	font-size: 3.5em;
+}
+
+.mediana{
+	font-size: 2em;
+}
+.nito{
+	font-weight: bold;
 }
