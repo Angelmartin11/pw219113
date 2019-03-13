@@ -6,19 +6,6 @@ body{
 	min-width: 1078px; 
 }
 
-#paint{
-	float:right;
-}
-#granthams{
-	margin-left: 25px;
-	margin-top: 25px;
-}
-
-#offer{
-	position: relative;
-	top: -406px;
-	left:-35px;
-}
 
 header input{
 	float:right;
@@ -41,6 +28,20 @@ header nav ul li {
 }
 
 /******* ID'S *******/
+
+#paint{
+	float:right;
+}
+#granthams{
+	margin-left: 25px;
+	margin-top: 25px;
+}
+
+#offer{
+	position: relative;
+	top: -406px;
+	left:-35px;
+}
 
 #seccion01{
 	margin-top: 60px;
@@ -72,11 +73,67 @@ header nav ul li {
 	margin-right: 200px;
 }
 
+#seccion03{
+	margin-top: 20px;
+}
+
+#seccion03 article{
+	width: 23%;
+	vertical-align: top;
+	display:inline-block;
+}
+#sec3art4 {
+	padding-top: 40px;
+}
+
+#seccion03 article img{
+	vertical-align: middle;
+}
+
+#seccion03 article input {
+	border-radius: 5px;
+	margin-top: 10px;
+}
+#seccion03 article input[type="button"]{
+	color: white;
+	background: #8BC500;
+}
+
+#sec3art4 img{
+	position:relative;
+	top:90px;
+}
+
+footer{
+	color:white;
+	background: #3B64B7;
+	margin-top: 60px;
+}
+footer article{
+	display:inline-block;
+	margin-right: 30px;
+}
+#footart1{
+	margin: 20px 20px 20px 20px;
+}
+footer input[type="button"]{
+	border:1px solid white;
+	border-radius: 10px;
+	font-size: 1.05em;
+	color:white;
+	background: #3B64B7;
+}
 
 /******** CLASES *******/
 
 .Rosa{
 	color: #FF0099;
+}
+.verde{
+	color: #8BC500;
+}
+.azul{
+	color: #4267B3;
 }
 
 .grande{
