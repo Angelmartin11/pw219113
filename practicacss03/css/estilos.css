@@ -31,6 +31,29 @@ header nav input{
 	width: 150px;
 	height: 25px;
 }
+ footer section{
+ 	margin-top: 20px;
+ }
+ footer section article ul{
+ 	margin-top: 0px;
+ 	padding-top: 0px;
+ }
+ footer section article ul li{
+ 	list-style: none;
+ 	padding-bottom: 5px; 
+
+ }
+ footer section article{
+ 	width: 25%;
+	border-top: dotted grey;
+	display:inline-block;
+	vertical-align:  top;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin-left: 60px;
+	position:relative;
+ }
 #secc01{
 padding-bottom: 30px;
 }
@@ -88,29 +111,7 @@ padding-bottom: 30px;
  	display:inline-block;
  	margin-left:  125px;
  }
- footer section{
- 	margin-top: 20px;
- }
- footer section article ul{
- 	margin-top: 0px;
- 	padding-top: 0px;
- }
- footer section article ul li{
- 	list-style: none;
- 	padding-bottom: 5px; 
 
- }
- footer section article{
- 	width: 25%;
-	border-top: dotted grey;
-	display:inline-block;
-	vertical-align:  top;
-	padding-left: 30px;
-	padding-top: 10px;
-	padding-bottom: 20px;
-	margin-left: 60px;
-	position:relative;
- }
 #email{
 	color:#5DBCD2;
 }

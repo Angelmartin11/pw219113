@@ -26,6 +26,15 @@ header nav ul li {
 	padding-bottom: 2px;
 	border-bottom: 2px solid lightgrey;
 }
+footer{
+	color:white;
+	background: #3B64B7;
+	margin-top: 60px;
+}
+footer article{
+	display:inline-block;
+	margin-right: 30px;
+}
 
 /******* ID'S *******/
 
@@ -104,15 +113,7 @@ header nav ul li {
 	top:90px;
 }
 
-footer{
-	color:white;
-	background: #3B64B7;
-	margin-top: 60px;
-}
-footer article{
-	display:inline-block;
-	margin-right: 30px;
-}
+
 #footart1{
 	margin: 20px 20px 20px 20px;
 }
