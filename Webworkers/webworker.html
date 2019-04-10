@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang ="es">
+<head>
+	<meta charset="utf-8">
+	<title>webWorkers</title>
+</head>
+<body>
+	<p>Contar numeros: <div id="res"></div></p>
+	<button onClick="iniciaWorker();">Iniciar</button>
+	<button onClick="detieneWorker();">Detiene</button>
+	<br>
+	<br>
+	<p>Contar numeros: <div id="res2"></div></p>
+	<button onClick="iniciaWorker2();">Iniciar</button>
+	<button onClick="detieneWorker2();">Detiene</button>
+
+	<script>
+		var w1 = undefined;
+		var w2 = undefined;
+		function iniciaWorker(){
+			//Preguntar si lo soporta
+			if(typeof(w1)=="undefined"){
+				w1=new Worker('demoWorker.js');
+				w1.onmessage=function(event){
+					document.getElementById('res').innerHTML=event.data;
+				}
+			}else{
+				alert("No soporta webWorkers");
+			}
+		}
+
+		function detieneWorker(){
+				w1.terminate();
+				w1=undefined;
+			}
+
+
+			function iniciaWorker2(){
+			//Preguntar si lo soporta
+			if(typeof(w2)=="undefined"){
+				w2=new Worker('demoWorker.js');
+				w2.onmessage=function(event){
+					document.getElementById('res2').innerHTML=event.data;
+				}
+			}else{
+				alert("No soporta webWorkers");
+			}
+		}
+
+		function detieneWorker2(){
+				w2.terminate();
+				w2=undefined;
+			}
+
+	</script>
+</body>
+</html>
